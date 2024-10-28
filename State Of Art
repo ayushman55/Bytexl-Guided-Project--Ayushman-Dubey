@@ -45,6 +45,8 @@ location, and environmental conditions. This data will enable more accurate and 
 •	Personalized Demand Forecasting: By leveraging user data and preferences, personalized demand forecasting will become increasingly sophisticated. 
 Recommender systems and user profiling techniques will enable bike-sharing operators to anticipate individual user needs and provide tailored recommendations for bike rentals.
 •	Integration with Smart City Initiatives: Bike Sharing Demand Prediction will be seamlessly integrated with smart city initiatives, such as traffic management systems, public transit networks, and environmental monitoring platforms. This integration will foster better urban planning, optimize resource allocation, and promote sustainable transportation solutions.
+
+References:
 I have used the following references to create this document:
 1.	github.com/shashankvmaiya/Bike-Sharing-Demand-Prediction
 2.	www.analyticsvidhya.com/blog/2023/05/end-to-end-case-study-bike-sharing-demand-prediction/
