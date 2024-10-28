@@ -1,47 +1,77 @@
 Bike Sharing Demand Prediction: A Comprehensive Project Description
 
 Project Summary
-In recent years, urban areas such as San Francisco, New York, Chicago, and Los Angeles have seen the emergence of various bike and scooter ride sharing companies, including Bird, Capital Bikeshare, and Citi Bike. These businesses face the critical challenge of accurately predicting the demand for their services on any given day. Having too many bikes can result in resource wastage, including bike maintenance and parking space, while having too few bikes can lead to revenue loss, ranging from short-term losses due to missed opportunities to potential long-term losses due to a decrease in the customer base. Therefore, estimating the demand for these services is crucial for the efficient functioning of these companies.
+In recent years, urban areas such as San Francisco, New York, Chicago, and Los Angeles have seen the emergence of various bike and scooter ride sharing companies,
+Including Bird, Capital Bikeshare, and Citi Bike. These businesses face the critical challenge of accurately predicting the demand for their services on any given day. 
+Having too many bikes can result in resource wastage, including bike maintenance and parking space, while having too few bikes can lead to revenue loss, 
+ranging from short-term losses due to missed opportunities to potential long-term losses due to a decrease in the customer base. 
+Therefore, estimating the demand for these services is crucial for the efficient functioning of these companies.
 The aim of this project is to address this challenge by combining historical bike usage patterns with weather data to forecast bike rental demand.
-The data set we will use for this project contains 14 columns as variables: 'Date', 'Seasons', 'Holiday', 'Functional day', 'Hour', 'Rainfall', 'Snowfall', 'Rented Bike count', 'Temperature', 'Humidity', 'Dew Point Temperature', 'Visibility', 'Solar radiation' and 'Windspeed'.
-We will use Python libraries such as Pandas, Seaborn, Numpy, and sklearn to develop our prediction algorithm. By testing and evaluating different models, we will determine which algorithms provide the most accurate predictions and can be deployed effectively in real-world scenarios.
-In addition to the technical aspects of this project, it is worth nothing the potential benefits of accurate bike rental demand forecasting. This technology could help ride-sharing companies reduce waste and improve resource allocation, leading to cost savings and increased profitability. Additionally, more accurate predictions could lead to improved customer satisfaction and a better overall experience for users.
-Furthermore, bike and scooter ride sharing services are often viewed as environmentally friendly alternatives to traditional transportation methods, and better demand forecasting could lead to reduced traffic congestion and lower carbon emissions. Overall, this project has significant potential to make a positive impact on both the business and environmental aspects of the bike and scooter ride sharing industry.
+The data set we will use for this project contains 14 columns as variables: 'Date', 'Seasons', 'Holiday', 'Functional day', 'Hour', 'Rainfall', 'Snowfall',
+'Rented Bike count', 'Temperature', 'Humidity', 'Dew Point Temperature', 'Visibility', 'Solar radiation' and 'Windspeed'.
+We will use Python libraries such as Pandas, Seaborn, Numpy, and sklearn to develop our prediction algorithm. By testing and evaluating different models, 
+we will determine which algorithms provide the most accurate predictions and can be deployed effectively in real-world scenarios.
+In addition to the technical aspects of this project, it is worth nothing the potential benefits of accurate bike rental demand forecasting. 
+This technology could help ride-sharing companies reduce waste and improve resource allocation, leading to cost savings and increased profitability. 
+Additionally, more accurate predictions could lead to improved customer satisfaction and a better overall experience for users.
+Furthermore, bike and scooter ride sharing services are often viewed as environmentally friendly alternatives to traditional transportation methods, 
+and better demand forecasting could lead to reduced traffic congestion and lower carbon emissions. 
+Overall, this project has significant potential to make a positive impact on both the business and environmental aspects of the bike and scooter ride sharing industry.
 
 
 
 Problem Description
-Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort. It is important to make the rental bike available and accessible to the public at the right time as it lessens the waiting time. Eventually, providing the city with a stable supply of rental bikes becomes a major concern. The crucial part is the prediction of bike count required at each hour for the stable supply of rental bikes.
+Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort. It is important to make the rental bike available and
+accessible to the public at the right time as it lessens the waiting time. Eventually, providing the city with a stable supply of rental bikes becomes a major concern. 
+The crucial part is the prediction of bike count required at each hour for the stable supply of rental bikes.
 
 
 1. Introduction
-Bike-sharing programs have emerged as a sustainable and convenient mode of transportation in urban areas worldwide, offering a viable alternative to private vehicles and public transit. These programs involve a network of shared bicycles that users can rent for short periods, promoting eco-friendly travel, reducing traffic congestion, and fostering healthier lifestyles. However, the success of bike-sharing programs hinges on the efficient management and allocation of bicycles to meet user demand effectively. This is where Bike Sharing Demand Prediction plays a crucial role.
-Bike Sharing Demand Prediction is the process of forecasting the number of bikes that will be required at specific locations and times. Accurate demand prediction enables bike-sharing operators to optimize bike allocation, minimize user waiting times, and enhance customer satisfaction. It also helps in reducing operational costs, improving resource utilization, and ultimately ensuring the long-term sustainability of these programs.
+Bike-sharing programs have emerged as a sustainable and convenient mode of transportation in urban areas worldwide, offering a viable alternative to private vehicles and public transit.
+These programs involve a network of shared bicycles that users can rent for short periods, promoting eco-friendly travel, reducing traffic congestion, and fostering healthier lifestyles. 
+However, the success of bike-sharing programs hinges on the efficient management and allocation of bicycles to meet user demand effectively. This is where Bike Sharing Demand Prediction plays a crucial role.
+Bike Sharing Demand Prediction is the process of forecasting the number of bikes that will be required at specific locations and times. 
+Accurate demand prediction enables bike-sharing operators to optimize bike allocation, minimize user waiting times, and enhance customer satisfaction. It also helps in reducing operational costs,
+improving resource utilization, and ultimately ensuring the long-term sustainability of these programs.
+
+
 2. Project Description
-This project aims to develop a robust and accurate bike-sharing demand prediction model using machine learning and data analysis techniques. The project will leverage historical bike usage data, weather information, and other relevant factors to build a predictive model that can forecast bike demand at different locations and times.
+This project aims to develop a robust and accurate bike-sharing demand prediction model using machine learning and data analysis techniques. 
+The project will leverage historical bike usage data, weather information, and other relevant factors to build a predictive model that can forecast bike demand at different locations and times.
 The project will involve the following key steps:
 •	Data Collection and Preprocessing: Gathering historical bike usage data, weather data, and other relevant datasets. Cleaning and preprocessing the data to ensure its quality and consistency.
 •	Feature Engineering: Identifying and extracting relevant features from the data that can influence bike demand. Creating new features through data transformations and combinations.
-•	Model Selection and Training: Evaluating different machine learning models, such as Random Forests, Gradient Boosting Machines, and Neural Networks, for their suitability to the prediction task. Training the selected model using the prepared dataset.
-•	Model Evaluation and Tuning: Assessing the performance of the trained model using appropriate metrics, such as Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE). Fine-tuning the model parameters to optimize its predictive accuracy.
+•	Model Selection and Training: Evaluating different machine learning models, such as Random Forests, Gradient Boosting Machines, and Neural Networks, for their suitability to the prediction task. 
+Training the selected model using the prepared dataset.
+•	Model Evaluation and Tuning: Assessing the performance of the trained model using appropriate metrics, such as Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE). 
+Fine-tuning the model parameters to optimize its predictive accuracy.
 •	Deployment and Integration: Deploying the trained model as a web service or API for real-time demand prediction. Integrating the prediction model with the bike-sharing system for operational decision-making.
+
+
 3. Stakeholders
 This project involves various stakeholders who have a vested interest in its success:
 •	Bike-sharing Operators: The primary stakeholders who will benefit from the accurate demand prediction. They can use the model to optimize bike allocation, reduce operational costs, and enhance customer satisfaction.
 •	City Planners and Transportation Authorities: The project can provide valuable insights into urban mobility patterns, helping city planners to identify areas with high demand and optimize infrastructure accordingly.
 •	Bike-sharing Users: Improved demand prediction will lead to reduced waiting times and increased bike availability, enhancing user experience and encouraging bike-sharing adoption.
 •	Environmental Organizations: Bike-sharing programs contribute to environmental sustainability by reducing traffic congestion and emissions. Accurate demand prediction further supports these benefits.
+
+
 4. Business Value of the Project
 This project offers significant business value to bike-sharing operators and other stakeholders:
 •	Cost Savings: Optimized bike allocation and reduced bike movements can lead to significant cost savings in terms of labor, maintenance, and logistics.
 •	Increased Revenue: Improved bike availability and customer satisfaction can drive higher user adoption and usage, leading to increased revenue for bike-sharing operators.
 •	Enhanced Customer Experience: Reduced waiting times and readily available bikes enhance the overall customer experience, promoting user retention and loyalty.
-•	Improved Operational Efficiency: Accurate demand prediction enables bike-sharing operators to make informed decisions regarding bike allocation, rebalancing, and maintenance, leading to improved operational efficiency.
+•	Improved Operational Efficiency: Accurate demand prediction enables bike-sharing operators to make informed decisions regarding bike allocation, rebalancing, and maintenance,
+leading to improved operational efficiency.
 •	Competitive Advantage: By offering a superior user experience and optimized operations, bike-sharing operators can gain a competitive advantage in the market.
+
+
 5. Relevance in the Present Context
 Bike Sharing Demand Prediction is highly relevant in the present context due to several factors:
-•	Growing Popularity of Bike-sharing: Bike-sharing programs are experiencing significant growth globally, with increasing user adoption and expansion into new cities. Accurate demand prediction is essential to manage this growth effectively.
-•	Sustainability Concerns: Urban areas are facing increasing pressure to reduce traffic congestion and emissions. Bike-sharing offers a sustainable transportation alternative, and accurate demand prediction further supports this goal.
+•	Growing Popularity of Bike-sharing: Bike-sharing programs are experiencing significant growth globally, with increasing user adoption and expansion into new cities. 
+Accurate demand prediction is essential to manage this growth effectively.
+•	Sustainability Concerns: Urban areas are facing increasing pressure to reduce traffic congestion and emissions. Bike-sharing offers a sustainable transportation alternative,
+and accurate demand prediction further supports this goal.
 •	Advancements in Data and Technology: The availability of large-scale bike usage data, weather information, and advanced machine learning techniques has enabled the development of more accurate demand prediction models.
 •	Smart City Initiatives: Many cities are implementing smart city initiatives to improve urban living. Bike Sharing Demand Prediction aligns with these initiatives by optimizing transportation and resource allocation.
 
